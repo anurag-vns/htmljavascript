@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids with column width in fractions</title>
+<style>
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+}
+.container > div {
+border-radius: 5px;
+padding: 10px;
+background-color: wheat;
+border: 2px orange;
+}
+</style>
+</head>
+<body>
+<h1>Grids with column width in fractions</h1> 
+<div class="container">
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+    <div>Five</div>
+    <div>Six</div>
+    <div>Seven</div>
+</div>
+</body>
+</html>

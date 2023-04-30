@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+        }
+        body{
+            width: 90%;
+            max-width: 900px;
+            margin: 10px auto;
+        }
+        .container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: brown;
+            border: 2px solid green;
+        }
+        h1{
+            text-align: center;
+            color:red ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid with simple 3 column template grid with 200 pixels</h1>
+    <div class="container">
+        <div>Sachin</div>
+        <div>Dhoni</div>
+        <div>Virat</div>
+        <div>Rohit</div>
+        <div>Jadeja</div>
+        <div>Ashvin</div>
+        <div>Ishant</div>
+    </div>
+    </div>
+    
+</body>
+</html>

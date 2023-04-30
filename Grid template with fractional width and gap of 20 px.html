@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template with fractional width and gap of 20 px</title>
+    <style>
+        
+            .container{
+                display:grid;
+                grid-template-columns: 2fr 1fr 1fr;
+                gap: 20px;
+            }
+            body{
+                width: 90%;
+                max-width: 900px;
+                margin: 10px auto;
+            }
+            .container > div {
+                border-radius: 5px;
+                padding: 10px;
+                background-color: burlywood;
+            border: 2px solid blue;
+
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>Grid template with fractional width and gap of 20 px</h1>
+   <div class="container">
+    <div>Sachin</div>
+    <div> Rahul</div>
+    <div>Virat</div>
+    <div>Dhavan</div>
+    <div>ishant</div>
+   </div>
+</body>
+</html>

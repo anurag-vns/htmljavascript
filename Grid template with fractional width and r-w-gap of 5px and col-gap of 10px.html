@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template with fractional width and r-w-gap of 5px and col-gap of 10px</title>
+     <style>
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 5px;
+        }
+        body{
+            width: 90%;
+            max-width: 900px;
+            margin: 10px auto;
+        }
+        .container > div {
+            border-radius: 20px;
+            padding: 20px;
+            background-color: brown;
+            border: 2px solid red ;
+
+        }
+        h1{
+            text-align: center;
+            color:blue;
+        }
+     </style>
+</head>
+<body>
+    <h1>Grid template with fractional width and r-w-gap of 5px and col-gap of 10px</h1>
+    <h1>Name Of Fruits</h1>
+<div class="container">
+    <div>Apple</div>
+    <div>Mango</div>
+    <div>Banana</div>
+    <div>Watermellon</div>
+    <div>Grapes</div>
+    <div>Jackfruits</div>
+    <div>PineApple</div>
+    <div>Orange</div>
+    <div>Papaya</div>
+    <div>Tomato</div>
+</div>
+</body>
+
+</html>
